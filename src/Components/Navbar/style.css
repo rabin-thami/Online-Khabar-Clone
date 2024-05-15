@@ -1,0 +1,17 @@
+
+.animationClass li:before {
+    content: '';
+    background-color: rgba(0, 0, 0, .04);
+    height: 100%;
+    width: calc(100%);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0;
+    z-index: 1;
+    transition: all .3s ease;
+}
+
+.animationClass li:hover:before {
+    width: calc(100%);
+}
