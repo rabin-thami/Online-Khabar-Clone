@@ -34,6 +34,3 @@ export default function MobileComponents() {
 // // Getting header image from API
 // const url = `${import.meta.env.VITE_API_LINK}/header_image`;
 // const { data, error } = getAPIData(url);
-
-// if (error) return <h1>Error loading data</h1>;
-// if (!data) return <h1>Loading...</h1>;
