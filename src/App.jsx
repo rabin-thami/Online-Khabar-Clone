@@ -1,5 +1,5 @@
-import Header from "./Components/Header";
+import Components from "./Components";
 
 export default function App() {
-  return <Header />;
+  return <Components />;
 }
