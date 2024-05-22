@@ -86,10 +86,10 @@ export default function Footer({ headerImage }) {
           © २००६-२०२३ Onlinekhabar.com सर्वाधिकार सुरक्षित
         </p>
       </div>
-      <div className="fixed z-10 px-10 py-4 bg-color-default-white bottom-0 w-screen text-color-primary-blue flex justify-center flex-wrap">
-        <ul className="flex gap-10">
+      <div className="fixed z-50 pt-4 pb-2 bg-color-default-white bottom-0 w-screen text-color-primary-blue">
+        <ul className="flex justify-around">
           {footerIcons.map((item, index) => (
-            <li key={index} className="flex flex-col items-center space-y-3">
+            <li key={index} className="flex flex-col items-center gap-1">
               {item.icon}
               <p>{item.label}</p>
             </li>
